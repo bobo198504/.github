@@ -21,6 +21,8 @@ new-pull-request pages).
 - **极简**：一条一行，符号标性质——`*` 核心功能 / `+` 小功能添加 / `#` 修复；外层用代码块包住。
 - **只写「改了什么」**：不写原理、不写实测数据、不写过程、不写注意事项、不写用法提示；
   不带安装说明、不带 MD5、不带「详见某文档」；主功能不重复。
+- **只写用户可感知的结果**：新增功能只写已经确认可用的能力；修改和修复只写原有功能出现的问题或确实完成的改进。
+  开发过程中踩到的问题、内部实现调整、排版微调和代码清理都不写。
 - **两处都在推之前改完。**
 
 ### English
@@ -33,4 +35,7 @@ monolingual. The same holds for tag annotations.
 - **Minimal**: one line per entry, marked `*` (core), `+` (small addition) or `#` (fix), wrapped in a code block.
 - **Only what changed**: no rationale, no measurements, no process, no caveats, no usage notes; no install
   instructions, no checksums, no "see …". The main feature is not repeated.
+- **User-visible results only**: additions list only capabilities that are confirmed to work; changes and fixes
+  cover problems or improvements in existing functionality. Development issues, internal implementation changes,
+  cosmetic tuning and code cleanup do not belong in release notes.
 - **Both places are updated before pushing.**
